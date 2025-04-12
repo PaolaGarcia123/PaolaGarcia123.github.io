@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccffd9;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #38f3c4;
+    color: white;
+    font-size: 20px;
+}
+
+.submodule {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.submodule h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.submodule p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.images img {
+    width: 48%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.images img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.encabezado{
+    background-color: #15e4ff;
+    font-size: 60px;
+    color: #d4eeff;
+}
+.module {
+    background-color: #34dba3;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
